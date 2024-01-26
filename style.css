@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+#quiz-container {
+    max-width: 1080px; /* 1200px - 10% */
+    width: 100%;
+}
+
+.form-wrapper {
+    text-align: left; /* Align the form content to the left */
+}
+
+.question {
+    max-width: 900px; /* 1000px - 10% */
+    margin: 0 auto;
+    margin-right: 12px;
+    padding: 45px; /* 50px - 10% */
+    background-color: #fff;
+    box-shadow: 0 0 22.5px rgba(0, 0, 0, 0.1); /* 25px - 10% */
+    margin-bottom: 45px; /* 50px - 10% */
+}
+
+.question-number {
+    font-weight: bold;
+    font-size: 27px; /* 30px - 10% */
+    margin-right: 18px; /* 20px - 10% */
+}
+
+/* Align text to the left within the question container */
+.question p,
+.question label {
+    padding-left: 8px;
+    text-align: left;
+    font-size: 23.4px; /* 26px - 10% */
+}
+
+#next-button {
+    padding: 18px 36px; /* 20px - 10%, 40px - 10% */
+    margin-top: 45px; /* 50px - 10% */
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 13.5px; /* 15px - 10% */
+    cursor: pointer;
+    font-size: 27px; /* 30px - 10% */
+    display: block;
+    margin: 0 auto; /* Center horizontally */
+}
+
+#next-button:hover {
+    background-color: #2980b9;
+}
+
+#get-email {
+    display: none;
+    margin-top: 45px; /* 50px - 10% */
+}
+
+#get-email label {
+    display: block;
+    margin-bottom: 22.5px; /* 25px - 10% */
+    font-size: 27px; /* 30px - 10% */
+}
+
+#get-email input,
+#get-email button {
+    padding: 18px;
+    font-size: 27px; /* 30px - 10% */
+}
+
+#get-email input {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 36px; /* 40px - 10% */
+}
+
+#get-email button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 13.5px; /* 15px - 10% */
+    cursor: pointer;
+}
+
+#get-email button:hover {
+    background-color: #2980b9;
+}

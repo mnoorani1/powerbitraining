@@ -1,0 +1,33 @@
+[
+    {
+        "id": 1,
+        "question": "Purpose for Learning Power BI",
+        "inputType": "checkbox",
+        "options": [
+            {"id": 1, "text": "Personal interest"},
+            {"id": 2, "text": "Professional development"},
+            {"id": 3, "text": "Specific project requirement"},
+            {"id": 4, "text": "Certification"}
+        ]
+    },
+    {
+        "id": 2,
+        "question": "How Do You Plan to Use Power BI?",
+        "inputType": "checkbox",
+        "options": [
+            {"id": 1, "text": "Not sure"},
+            {"id": 2, "text": "Consume reports developed by others"},
+            {"id": 3, "text": "Utilize existing data models to build reports."},
+            {"id": 4, "text": "End to end Report Development"}
+        ]
+    },
+    {
+        "id": 3,
+        "question": "Background in Business (Finance, Operations, Admin) or IT",
+        "inputType": "radio",
+        "options": [
+            {"id": 1, "text": "Business background"},
+            {"id": 2, "text": "IT background"}
+        ]
+    }
+]
